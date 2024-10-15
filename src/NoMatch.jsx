@@ -1,7 +1,7 @@
 
 import React from 'react'
 
-function NoMatch() {
+let NoMatch=()=> {
   return (
     <h1 className='text-danger'>
         Page Not Found! ERROR 404...
