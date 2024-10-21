@@ -1,3 +1,7 @@
 .navbar-style{
     background-color: aqua !important;
 }
+.login-card{
+    border-left: 2px greenyellow;
+    border-right: 2px greenyellow;
+}
