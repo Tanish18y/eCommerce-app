@@ -10,11 +10,14 @@ function App(){
     return(
         <HashRouter>
             <NavBar/>
+            <div className="container-fluid">
                 <Routes>
                     <Route path="/" exact={true} element={<Login/>}/>
                     <Route path="/register"  element={<Register/>}/>
                     <Route path="/dashboard" element={<Dashboard/>}/>
                 </Routes>
+            </div>
+                
         </HashRouter>
     );
         
