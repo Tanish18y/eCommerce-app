@@ -1,0 +1,129 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "email": "john.doe@example.com",
+        "password": "hashed_password",
+        "address": {
+          "street": "123 Main St",
+          "city": "New York",
+          "state": "NY",
+          "zipCode": "10001"
+        },
+        "phone": "123-456-7890",
+        "role": "customer"
+      },
+      {
+        "id": 2,
+        "name": "Jane Smith",
+        "email": "jane.smith@example.com",
+        "password": "hashed_password",
+        "address": {
+          "street": "456 Maple St",
+          "city": "Los Angeles",
+          "state": "CA",
+          "zipCode": "90001"
+        },
+        "phone": "987-654-3210",
+        "role": "admin"
+      }
+    ],
+    "products": [
+      {
+        "id": 1,
+        "name": "Wireless Mouse",
+        "description": "Ergonomic wireless mouse with 2.4 GHz connectivity.",
+        "price": 25.99,
+        "stock": 100,
+        "categoryId": 1,
+        "images": [
+          "https://example.com/products/mouse.jpg"
+        ],
+        "rating": 4.5
+      },
+      {
+        "id": 2,
+        "name": "Mechanical Keyboard",
+        "description": "Durable mechanical keyboard with RGB backlight.",
+        "price": 85.50,
+        "stock": 50,
+        "categoryId": 1,
+        "images": [
+          "https://example.com/products/keyboard.jpg"
+        ],
+        "rating": 4.8
+      }
+    ],
+    "categories": [
+      {
+        "id": 1,
+        "name": "Electronics",
+        "description": "Latest gadgets and devices."
+      },
+      {
+        "id": 2,
+        "name": "Clothing",
+        "description": "Fashionable clothing for men, women, and kids."
+      }
+    ],
+    "orders": [
+      {
+        "id": 1,
+        "userId": 1,
+        "orderDate": "2024-10-24T10:30:00Z",
+        "status": "shipped",
+        "totalAmount": 111.49,
+        "items": [
+          {
+            "productId": 1,
+            "quantity": 2,
+            "price": 25.99
+          },
+          {
+            "productId": 2,
+            "quantity": 1,
+            "price": 85.50
+          }
+        ],
+        "shippingAddress": {
+          "street": "123 Main St",
+          "city": "New York",
+          "state": "NY",
+          "zipCode": "10001"
+        }
+      }
+    ],
+    "carts": [
+      {
+        "userId": 1,
+        "items": [
+          {
+            "productId": 1,
+            "quantity": 2
+          },
+          {
+            "productId": 2,
+            "quantity": 1
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "id": 1,
+        "productId": 1,
+        "userId": 1,
+        "rating": 5,
+        "comment": "Great mouse, very responsive!"
+      },
+      {
+        "id": 2,
+        "productId": 2,
+        "userId": 2,
+        "rating": 4,
+        "comment": "Solid keyboard, but keys are a bit loud."
+      }
+    ]
+  }
+  

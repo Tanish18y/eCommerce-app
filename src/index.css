@@ -1,7 +1,13 @@
 .navbar-style{
     background-color: aqua !important;
 }
-.login-card{
-    border-left: 2px greenyellow;
-    border-right: 2px greenyellow;
+.nav-link.active{
+    color: #ffffff;
+    border-bottom: 2px solid #ffffff;
+}
+.header{
+    background-color:rgb(182, 169, 169) ;
+    position:sticky;
+    top: 0;
+    z-index: 1000;
 }

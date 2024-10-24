@@ -7,7 +7,8 @@ import "bootstrap/dist/css/bootstrap.css"
 import "font-awesome/css/font-awesome.css"
 import "./index.css"
 import App from "./App";
-ReactDOM.render(
-    <App/> , 
-    document.getElementById("root")
-);
+import { createRoot } from "react-dom/client";
+
+const rootElement = document.getElementById("root");
+const root = createRoot(rootElement);
+root.render(<App />);
